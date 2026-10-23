@@ -1,3 +1,19 @@
 spring:
   application:
     name: rome
+
+  security:
+    user:
+      name: harsha
+      password: 123
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/romexity
+    username: root
+    password: 405501
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
